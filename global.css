@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .container {
+    @apply flex-1 bg-background p-4;
+  }
+  .header {
+    @apply text-4xl font-bold;
+  }
+  .pillButton {
+    @apply p-2 h-16 rounded-full justify-center items-center;
+  }
+  .textLink {
+    @apply text-primary text-lg font-semibold;
+  }
+  .descriptionText {
+    @apply text-lg mt-5 text-gray;
+  }
+  .buttonText {
+    @apply text-white text-lg font-semibold;
+  }
+  .pillButtonSmall {
+    @apply px-8 h-10 rounded-md justify-center items-center;
+  }
+  .buttonTextSmall {
+    @apply text-white text-base font-semibold;
+  }
+  .sectionHeader {
+    @apply text-2xl font-bold m-5 mb-2;
+  }
+  .block {
+    @apply mx-5 p-4 bg-white rounded-lg gap-5;
+  }
+}
