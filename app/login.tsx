@@ -52,7 +52,8 @@ const Login = (props: Props) => {
           const fullPhoneNumber = `${countryCode}${phoneNumber}`;
 
           const { supportedFirstFactors } = await signIn!.create({
-            identifier: fullPhoneNumber,
+            // identifier: fullPhoneNumber,
+            identifier: "+4915510067981",
           });
           const firstPhoneFactor: any = supportedFirstFactors.find(
             (factor: any) => {

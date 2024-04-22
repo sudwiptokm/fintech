@@ -15,6 +15,12 @@
 		96905EF65AED1B983A6B3ABC /* libPods-ftech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ftech.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		842FABB252D34EA9AB7C6C59 /* default-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91F486904542E384F16140 /* default-Icon-60x60@2x.png */; };
+		206EEE3499BC4975A8304682 /* default-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F73CC52816D042A49C9CD155 /* default-Icon-60x60@3x.png */; };
+		6DF9A41D5F984EBFAFDEE780 /* dark-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA581320B55F4BBABC235B25 /* dark-Icon-60x60@2x.png */; };
+		4B96F6A11FE54870ABFDA8B0 /* dark-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD335045D924F37A7458110 /* dark-Icon-60x60@3x.png */; };
+		FA774F8F10144CC5A19C0504 /* vivid-Icon-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36100537477E4823B0B5467B /* vivid-Icon-60x60@2x.png */; };
+		A50740C6BE5045399B07790A /* vivid-Icon-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E72F53B86F4F418C17FD43 /* vivid-Icon-60x60@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,12 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ftech/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		2D91F486904542E384F16140 /* default-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@2x.png"; path = "ftech/DynamicAppIcons/default-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F73CC52816D042A49C9CD155 /* default-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "default-Icon-60x60@3x.png"; path = "ftech/DynamicAppIcons/default-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA581320B55F4BBABC235B25 /* dark-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@2x.png"; path = "ftech/DynamicAppIcons/dark-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DD335045D924F37A7458110 /* dark-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "dark-Icon-60x60@3x.png"; path = "ftech/DynamicAppIcons/dark-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36100537477E4823B0B5467B /* vivid-Icon-60x60@2x.png */ = {isa = PBXFileReference; name = "vivid-Icon-60x60@2x.png"; path = "ftech/DynamicAppIcons/vivid-Icon-60x60@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8E72F53B86F4F418C17FD43 /* vivid-Icon-60x60@3x.png */ = {isa = PBXFileReference; name = "vivid-Icon-60x60@3x.png"; path = "ftech/DynamicAppIcons/vivid-Icon-60x60@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				8AED2F9B1FAA4E72B57ED4A1 /* noop-file.swift */,
 				7B2DEFDA71E24CFD917D96E3 /* ftech-Bridging-Header.h */,
+				563C31DD7C2E45D7AC174EDF /* DynamicAppIcons */,
 			);
 			name = ftech;
 			sourceTree = "<group>";
@@ -136,6 +149,20 @@
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
+		563C31DD7C2E45D7AC174EDF /* DynamicAppIcons */ = {
+			isa = "PBXGroup";
+			children = (
+				2D91F486904542E384F16140 /* default-Icon-60x60@2x.png */,
+				F73CC52816D042A49C9CD155 /* default-Icon-60x60@3x.png */,
+				CA581320B55F4BBABC235B25 /* dark-Icon-60x60@2x.png */,
+				4DD335045D924F37A7458110 /* dark-Icon-60x60@3x.png */,
+				36100537477E4823B0B5467B /* vivid-Icon-60x60@2x.png */,
+				B8E72F53B86F4F418C17FD43 /* vivid-Icon-60x60@3x.png */,
+			);
+			name = DynamicAppIcons;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +227,12 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				842FABB252D34EA9AB7C6C59 /* default-Icon-60x60@2x.png in Resources */,
+				206EEE3499BC4975A8304682 /* default-Icon-60x60@3x.png in Resources */,
+				6DF9A41D5F984EBFAFDEE780 /* dark-Icon-60x60@2x.png in Resources */,
+				4B96F6A11FE54870ABFDA8B0 /* dark-Icon-60x60@3x.png in Resources */,
+				FA774F8F10144CC5A19C0504 /* vivid-Icon-60x60@2x.png in Resources */,
+				A50740C6BE5045399B07790A /* vivid-Icon-60x60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +302,8 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ftech/Pods-ftech-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoSystemUI/ExpoSystemUI_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
@@ -276,6 +311,8 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoSystemUI_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
@@ -345,7 +382,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudwiptokm.ftech;
-				PRODUCT_NAME = ftech;
+				PRODUCT_NAME = "FTech";
 				SWIFT_OBJC_BRIDGING_HEADER = "ftech/ftech-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -373,7 +410,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudwiptokm.ftech;
-				PRODUCT_NAME = ftech;
+				PRODUCT_NAME = "FTech";
 				SWIFT_OBJC_BRIDGING_HEADER = "ftech/ftech-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -526,6 +563,9 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }

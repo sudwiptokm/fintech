@@ -1,4 +1,4 @@
-rootProject.name = 'ftech'
+rootProject.name = 'FTech'
 
 dependencyResolutionManagement {
   versionCatalogs {

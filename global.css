@@ -22,7 +22,7 @@
     @apply text-white text-lg font-semibold;
   }
   .pillButtonSmall {
-    @apply px-8 h-10 rounded-md justify-center items-center;
+    @apply px-8 h-10 rounded-full justify-center items-center;
   }
   .buttonTextSmall {
     @apply text-white text-base font-semibold;
